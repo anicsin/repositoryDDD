@@ -5,7 +5,7 @@ For the hashing we are going to use R, which is a programming language for stati
 
 ## I. Installing R ##
 
-First we have to install R package. You might still remember how we did this with Rclone and Git. For a detaliled guide, please visit (this)[https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04] link.
+First we have to install R package. You might still remember how we did this with Rclone and Git. For a detaliled guide, please visit [this link](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04).
 
 ```
 root@DropletRTD:~# sudo apt update
