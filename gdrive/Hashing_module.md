@@ -5,7 +5,7 @@ For the hashing we are going to use R, which is a programming language for stati
 
 ## I. Installing R ##
 
-First we have to install R package. You might still remember how we did this with Rclone and Git. For a detaliled guide, please visit [this link](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04).
+First we have to install R package. You might still remember how we did this with Rclone and Git. For a detaliled guide, please visit (this)[https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04] link.
 
 ```
 root@DropletRTD:~# sudo apt update
@@ -56,7 +56,7 @@ Similarly to Linux, R uses packages, called libraries. Instead of being somethin
 >install.packages(c("rJava", "openssl", "readxl", "xlsx", "digest"))
 ```
 
-This may take a couple of minutes, depending on your server. I won't go into details about why these particular packages have been chosen, but for a detailed description you should search for the documentations of the packages, like [this](https://cran.r-project.org/web/packages/xlsx/xlsx.pdf).
+This may take a couple of minutes, depending on your server. I won't go into details about why these particular packages have been chosen, but for a detailed description you should search for the documentations of the packages, like (this)[https://cran.r-project.org/web/packages/xlsx/xlsx.pdf].
 
 ## II. Creating the R script file ##
 
@@ -156,7 +156,7 @@ we are going to lose the column under "Scale Name" as well. Either we should cha
 "[Subject Name]"
 ```
 
-It is best to include multiple expressions in the code, so we don't have to use too vague keywords. You can add additional expressions by separating them with a vertical bar: "\[expression1|expression2]".
+It is best to include multiple expressions in the code, so we don't have to use too vague keywords. This is going to be explained below.
 
 ```
 for (varindex in varnum){
