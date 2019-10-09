@@ -368,7 +368,7 @@ Console:
 	Branch master set up to track remote branch master from origin.
 ```
 
-Wait a few minutes and check your GitHub repository in your internet browser. The gdrive folder should have appeared by now.
+Wait a few minutes and check your GitHub repository in your internet browser. The gdrive folder should have appeared by now. It is important to understand that this is more like a synchronization, than just a simple upload. Git makes the destination identical to source, thus if destination contains newer or more files, the command won't force push the contents of origin (data loss is prevented this way). Check the Troubleshooting section at the end of the document if you encounter this problem.
 
 ### Switch from Https to SSH-key authentication ###
 
