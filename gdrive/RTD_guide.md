@@ -562,12 +562,15 @@ Here are some common errors we have encountered during the process.
 ---
 
 1. Rclone can't list the files in my drive folder
+
 First you should go through every information you have entered in the rclone config and the rclone sync process. Make sure that you entered the name of the drive folder correctly etc. This solves the problem most of the time.
 
 2. I have entered faulty information when configuring Git, but now I can't overwrite the origin and destination information.
+
 You have to remove the old remote and do the configuration again. Use [this link](https://help.github.com/en/articles/removing-a-remote) to remove the wrong repository.
 
 3. Git says that I can't push, because there is a mismatch in the repository and the local version.
+
 This looks something like this:
 ```
 hint: Updates were rejected because the remote contains work that you do
